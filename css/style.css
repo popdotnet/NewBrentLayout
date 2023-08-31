@@ -441,23 +441,41 @@ $color-primary-dark-2: #00526E;*/
 .c-footer {
   border-top: 4px solid rgb(26 62 73);
   font-size: 0.9em;
-  padding: 60px 0;
+  padding: 20px 0;
   position: relative;
   background-color: rgb(26 62 73);
 
 }
 
 .c-footer__box-w {
-  margin: 15px 0;
+  margin: 20px 20px;
 }
 
 .c-footer__box-title {
   color: white;
 }
 
+.c-footer__box-title::after {
+  content: "";
+  border: 1px solid #3cabac;
+  width: 30%;
+  display: block;
+  margin-top: 15px;
+}
+
 .c-footer-list {
   list-style: none;
   padding: 0;
+}
+
+.c-footer-list .fa {
+  color: #3cc5f1;
+  margin: 0 5px;
+  font-size: 14px;
+}
+
+.c-footer-list a {
+  color: white;
 }
 
 .c-footer-about {
