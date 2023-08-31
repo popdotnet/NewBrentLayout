@@ -1,0 +1,48 @@
+﻿@import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+/*---- Start Main Rules ------*/
+body {
+  font-family: "Droid Arabic Kufi", serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Droid Arabic Kufi", serif;
+}
+
+
+
+/*-------------- Ent Price-Feed -------------*/
+/*---------navbar----------*/
+.navbar .logo {
+  float: left;
+}
+
+.navbar .navbar-header .navbar-toggle {
+  float: right;
+}
+
+.navbar .navbar-collapse>.navbar-nav>li>a {
+  font-family: "Droid Arabic Kufi", serif;
+}
+
+.navbar .navbar-collapse>.navbar-nav>li:hover>a {
+  font-family: "Droid Arabic Kufi", serif;
+}
+
+.navbar .navbar-left {
+  float: right !important;
+  margin-left: -15px;
+}
+
+@media (max-width: 991px) {
+  .navbar .navbar-collapse>.navbar-nav>li.dropdown>.dropdown-menu {
+    right: 0;
+    left: auto;
+  }
+
+  .navbar .navbar-left {
+    float: none !important;
+  }
+}
+
+/*--------- End Navbar----------*/
