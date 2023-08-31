@@ -148,6 +148,7 @@ $color-primary-dark-2: #00526E;*/
   padding-top: 2px;
   padding-bottom: 2px;
   background-color: #195365;
+  border-bottom: 3px solid #3cabac;
 }
 
 .top-bar .contact .item {
@@ -439,23 +440,27 @@ $color-primary-dark-2: #00526E;*/
 /*--------- End Navbar----------*/
 /*--------- Start Footer----------*/
 .c-footer {
-  border-top: 4px solid rgb(26 62 73);
+  border-top: 4px solid #3cabac;
   font-size: 0.9em;
-  padding: 20px 0;
+  /* padding: 20px 0; */
   position: relative;
-  background-color: rgb(26 62 73);
+  /* background-color: rgb(26 62 73); */
 
 }
 
-.c-footer__box-w {
+.c-footer .footer-content {
+  background-color: rgb(10 34 43);
+}
+
+.c-footer .footer-content .c-footer__box-w {
   margin: 20px 20px;
 }
 
-.c-footer__box-title {
+.c-footer .footer-content .c-footer__box-title {
   color: white;
 }
 
-.c-footer__box-title::after {
+.c-footer .footer-content .c-footer__box-title::after {
   content: "";
   border: 1px solid #3cabac;
   width: 30%;
@@ -463,39 +468,57 @@ $color-primary-dark-2: #00526E;*/
   margin-top: 15px;
 }
 
-.c-footer-list {
+.c-footer .footer-content .c-footer-list {
   list-style: none;
   padding: 0;
 }
 
-.c-footer-list .fa {
-  color: #3cc5f1;
+.c-footer .footer-content .c-footer-list .fa {
+  color: #3cabac;
   margin: 0 5px;
   font-size: 14px;
 }
 
-.c-footer-list a {
+.c-footer .footer-content .c-footer-list a {
   color: white;
 }
 
-.c-footer-about {
+.c-footer .footer-content .c-footer-about {
   text-align: justify;
   color: white;
 }
 
-.c-footer-sitmap a {
+.c-footer .footer-content .c-footer-sitmap a {
   color: white;
 }
 
-.c-footer-contact {
+.c-footer .footer-content .c-footer-contact {
   color: white;
 }
 
-.c-footer-social .fa {
+.c-footer .footer-content .c-footer-social .fa {
   font-size: 18px;
   color: white;
 }
 
-.c-footer-social .fa:hover {
-  color: #195365;
+.c-footer .footer-content .c-footer-social .fa:hover {
+  color: #3cabac;
+}
+
+
+.c-footer .footer-copy {
+  background-color: #3cabac;
+  color: white;
+}
+
+.c-footer .footer-copy .copyright, .c-footer .footer-copy .powerby {
+  margin: 5px;
+}
+
+.c-footer .footer-copy .powerby {
+  text-align: end;
+}
+
+.c-footer .footer-copy .powerby a {
+  color: rgb(25, 83, 101);
 }
