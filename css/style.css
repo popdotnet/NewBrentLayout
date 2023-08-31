@@ -439,12 +439,12 @@ $color-primary-dark-2: #00526E;*/
 /*--------- End Navbar----------*/
 /*--------- Start Footer----------*/
 .c-footer {
-  border-top: 4px solid #0e0e0e;
+  border-top: 4px solid rgb(26 62 73);
   font-size: 0.9em;
   padding: 60px 0;
   position: relative;
-  background-image: url(/img/footer-bg.png);
-  background-repeat: repeat;
+  background-color: rgb(26 62 73);
+
 }
 
 .c-footer__box-w {
@@ -462,6 +462,7 @@ $color-primary-dark-2: #00526E;*/
 
 .c-footer-about {
   text-align: justify;
+  color: white;
 }
 
 .c-footer-sitmap a {
@@ -469,7 +470,7 @@ $color-primary-dark-2: #00526E;*/
 }
 
 .c-footer-contact {
-  color: #767676;
+  color: white;
 }
 
 .c-footer-social .fa {
