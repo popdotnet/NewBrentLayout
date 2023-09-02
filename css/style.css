@@ -251,7 +251,7 @@ $color-primary-dark-2: #00526E;*/
 }
 
 .navbar .logo img {
-  height: 64px;
+  height: 50px;
 }
 
 .navbar .logo a {
@@ -278,6 +278,7 @@ $color-primary-dark-2: #00526E;*/
   background-color: #195365;
 }
 
+
 .navbar .navbar-collapse>.navbar-nav>li.dropdown:hover .dropdown-menu {
   display: block;
 }
@@ -295,7 +296,8 @@ $color-primary-dark-2: #00526E;*/
 
 .navbar .navbar-collapse>.navbar-nav>li.dropdown>.dropdown-menu>li>a {
   color: white;
-  line-height: 40px;
+  line-height: 35px;
+  font-size: 13px;
 }
 
 .navbar .navbar-collapse>.navbar-nav>li.dropdown>.dropdown-menu>li>a:focus, .navbar .navbar-collapse>.navbar-nav>li.dropdown>.dropdown-menu>li>a:hover {
@@ -309,8 +311,8 @@ $color-primary-dark-2: #00526E;*/
 
 .navbar .navbar-collapse>.navbar-nav>li>a {
   font-family: "Droid Sans", sans-serif;
-  font-size: 15px;
-  line-height: 40px;
+  font-size: 13px;
+  line-height: 25px;
   text-transform: uppercase;
   transition: all 300ms ease-in-out 100ms;
   -moz-transition: all 300ms ease-in-out 100ms;
@@ -441,10 +443,8 @@ $color-primary-dark-2: #00526E;*/
 /*--------- Start Footer----------*/
 .c-footer {
   border-top: 4px solid #3cabac;
-  font-size: 0.9em;
-  /* padding: 20px 0; */
+  font-size: 12px;
   position: relative;
-  /* background-color: rgb(26 62 73); */
 
 }
 
@@ -458,6 +458,7 @@ $color-primary-dark-2: #00526E;*/
 
 .c-footer .footer-content .c-footer__box-title {
   color: white;
+  font-size: 18px;
 }
 
 .c-footer .footer-content .c-footer__box-title::after {
