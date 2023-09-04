@@ -338,7 +338,7 @@ $color-primary-dark-2: #00526E;*/
   bottom: 0px;
   width: 100%;
   height: 15px;
-  background: url(/img/icons/icon-arrow-up.png) center bottom no-repeat;
+  background: url(../img/icons/icon-arrow-up.png) center bottom no-repeat;
   transition: all 300ms ease 300ms;
   -moz-transition: all 300ms ease 100ms;
   -webkit-transition: all 300ms ease 100ms;
