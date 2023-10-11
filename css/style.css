@@ -200,6 +200,7 @@ $color-primary-dark-2: #00526E;*/
 .top-bar .box li {
   padding-right: 2px;
   padding-left: 3px;
+  color: white;
 }
 
 @media (min-width: 768px) {
