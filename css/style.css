@@ -163,6 +163,7 @@ $color-primary-dark-2: #00526E;*/
 
 .top-bar .login-w .login {
   display: inline-block;
+  margin-left: 13px;
 }
 
 .top-bar .login-w .login .logoutBtn {
