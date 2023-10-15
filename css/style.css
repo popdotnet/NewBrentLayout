@@ -442,6 +442,15 @@ $color-primary-dark-2: #00526E;*/
 }
 
 /*--------- End Navbar----------*/
+/*--------- Start User Wellcome ---*/
+.user-wellcome {
+  padding: 20px 15px;
+  color: #195365;
+}
+
+/*--------- End User Wellcome ---*/
+
+
 /*--------- Start Footer----------*/
 .c-footer {
   border-top: 4px solid #3cabac;
